@@ -20,7 +20,7 @@ class Cart extends Component {
                                         <Title name="Your" title="Cart"></Title>
                                         <CartColumns></CartColumns>
                                         <CartList contextData={value}></CartList>
-                                        <CartTotals contextData={value}></CartTotals>
+                                        <CartTotals contextData={value} history={this.props.history}></CartTotals>
                                     </React.Fragment>
                                 )
                             } else {
